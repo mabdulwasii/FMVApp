@@ -1,0 +1,41 @@
+/*
+========================================
+
+Login background
+
+================================*/
+
+body {
+    background: linear-gradient(
+            rgba(20,20,20, .5),
+            rgba(20,20,20, .5)),
+    url("../images/image7.jpg");
+    height:100%;
+    background-size: calc(100% + 50px);
+}
+main {
+    flex: 1 0 auto;
+}
+
+.container {
+    width: 100%;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: relative;
+    opacity: 100;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#error_message {
+    font-size: 12px;
+}
+
+.error_msg {
+    min-height: 20px;
+}
+
+#remember_me {
+    pointer-events: auto;
+}
